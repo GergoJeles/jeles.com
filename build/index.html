@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the portfolio of Gergö Jeles, a web and app developer. Explore Gergö's projects and skills in web and app development." />
+    <meta
+      name="keywords"
+      content="Gergö Jeles, web developer, app developer, portfolio, projects, skills, web development, app development" />
+    <title>Gergö Jeles - Web & App Developer</title>
+  <link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
+
+
+
+
+  <body>
+
+        <!-- ====== Hero Section Start -->
+   <!-- Hero Section -->
+   <section class="flex flex-col min-h-screen bg-slate-800 text-white bg-cover bg-fixed bg-center md:bg-right " style="background-image: url('src/images/hero/gj.png')">
+    <!-- Your content here -->
+
+    <!-- ====== Navbar Section Start -->
+    <header
+      class="header bg-white absolute top-0 left-0 z-40 w-full flex items-center transition">
+      <div class="container">
+        <div class="flex mx-[-16px] items-center justify-between relative">
+          <div class="px-4 w-60 max-w-full">
+            <a href="index.html" class="header-logo w-full block py-6 lg:py-8">
+              <img src="src/images/logo/gj_logo2.png" alt="logo" class="w-full" />
+            </a>
+          </div>
+          <div class="flex px-4 justify-between items-center w-full">
+            <div>
+              <button
+                id="navbarToggler"
+                name="navbarToggler"
+                aria-label="navbarToggler"
+                class="block absolute right-4 top-1/2 translate-y-[-50%] lg:hidden focus:ring-2 ring-primary px-3 py-[6px] rounded-lg">
+                <span
+                  class="relative w-[30px] h-[2px] my-[6px] block bg-dark"></span>
+                <span
+                  class="relative w-[30px] h-[2px] my-[6px] block bg-dark"></span>
+                <span
+                  class="relative w-[30px] h-[2px] my-[6px] block bg-dark"></span>
+              </button>
+              <nav
+                id="navbarCollapse"
+                class="absolute py-5 lg:py-0 lg:px-4 xl:px-6 bg-white lg:bg-transparent shadow-lg rounded-lg max-w-[250px] w-full lg:max-w-full lg:w-full right-4 top-full hidden lg:block lg:static lg:shadow-none">
+                <ul class="blcok lg:flex">
+                  <li class="relative group">
+                    <a
+                      href="#home"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="#services"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="#projects"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                      >Projects</a
+                    >
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="#cv"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                      >CV</a
+                    >
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="#contact"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                      >Contact</a
+                    >
+                  </li>
+                  
+                  <li class="relative group submenu-item">
+                    <a
+                      class="text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:pl-0 lg:pr-4 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12 relative after:absolute after:w-2 after:h-2 after:border-b-2 after:border-r-2 after:border-current after:rotate-45 lg:after:right-0 after:right-1 after:top-1/2 after:translate-y-[-50%] after:mt-[-2px]">
+                      English 🇬🇧
+                    </a>
+                    <div
+                      class="submenu hidden relative lg:absolute w-[250px] top-full lg:top-[110%] left-0 rounded-sm lg:shadow-lg p-4 lg:block lg:opacity-0 lg:invisible group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full bg-white transition-[top] duration-300">
+                      <a
+                        href="index.html"
+                        class="block text-sm text-black rounded hover:text-primary py-[10px] px-4">
+                        English 🇬🇧
+                      </a>
+                      <a
+                        href="de.html"
+                        class="block text-sm text-black rounded hover:text-primary py-[10px] px-4">
+                        German 🇩🇪
+                      </a>
+                      <a
+                        href="hu.html"
+                        class="block text-sm text-black rounded hover:text-primary py-[10px] px-4">
+                        Hungarian 🇭🇺
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
+              <a
+                href="#contact"
+                class="text-base font-bold text-white bg-primary rounded-full py-3 px-8 md:px-9 lg:px-8 xl:px-9 hover:shadow-signUp hover:bg-opacity-90 transition ease-in-out duration-300"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ====== Navbar Section End -->
+
+
+    
+
+    <!-- Hero Section Content -->
+    <div class="flex-1 flex items-center animate-fade-up">
+      <div class="text-center mx-auto">
+        <h1 class="text-6xl font-semibold">Hi, my name is Gergő Jeles</h1>
+        <p class="font-light text-3xl mt-5">Web and App developer</p>
+        
+        <button onclick="window.open('https://www.linkedin.com/in/gergojeles/', '_blank')">LinkedIn</button>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- ====== Hero Section End -->
+
+  
+
+    <!-- ====== Services Section Start  -->
+    <section id="services">
+      <div class="container">
+        <div class="pt-[120px] pb-[90px] border-t border-[#E9ECF8]">
+          <div class="flex flex-wrap mx-[-16px]">
+            <div class="w-full px-4">
+              <div class="max-w-[600px] mx-auto text-center mb-[70px]">
+                <span class="font-semibold text-lg text-primary block mb-2">
+                  <!-- What I Offer? -->
+                </span>
+                <h2
+                  class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5 animate-fade">
+                  My Specialities
+                </h2>
+                <p class="font-medium text-lg text-body-color">
+                  My passion lies in crafting digital wonders: from sculpting
+                  captivating web and app experiences, to immortalizing
+                  unforgettable moments, and sparking triumph through ingenious
+                  marketing strategies.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap mx-[-16px]">
+            <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+              <a href="index.html"
+                ><div
+                  class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
+                  <div
+                    class="mx-auto w-20 h-20 mb-6 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary">
+                    <svg
+                      width="35"
+                      height="33"
+                      viewBox="0 0 35 33"
+                      class="fill-current">
+                      <path
+                        d="M22.8335 14.0001C27.0002 14.0001 30.3335 17.3334 30.3335 21.5001C30.3335 22.9668 29.9168 24.3501 29.1835 25.5001L34.3168 30.6668L32.0002 32.9834L26.8002 27.8668C25.6502 28.5834 24.2835 29.0001 22.8335 29.0001C18.6668 29.0001 15.3335 25.6668 15.3335 21.5001C15.3335 17.3334 18.6668 14.0001 22.8335 14.0001ZM22.8335 17.3334C21.7284 17.3334 20.6686 17.7724 19.8872 18.5538C19.1058 19.3352 18.6668 20.395 18.6668 21.5001C18.6668 22.6052 19.1058 23.665 19.8872 24.4464C20.6686 25.2278 21.7284 25.6668 22.8335 25.6668C23.9386 25.6668 24.9984 25.2278 25.7798 24.4464C26.5612 23.665 27.0002 22.6052 27.0002 21.5001C27.0002 20.395 26.5612 19.3352 25.7798 18.5538C24.9984 17.7724 23.9386 17.3334 22.8335 17.3334ZM13.6668 0.666748C15.4349 0.666748 17.1306 1.36913 18.3809 2.61937C19.6311 3.86961 20.3335 5.56531 20.3335 7.33342C20.3335 8.85008 19.8168 10.2501 18.9668 11.3834C17.5335 11.9167 16.2502 12.7667 15.1835 13.8334L13.6668 14.0001C11.8987 14.0001 10.203 13.2977 8.95278 12.0475C7.70254 10.7972 7.00016 9.10153 7.00016 7.33342C7.00016 5.56531 7.70254 3.86961 8.95278 2.61937C10.203 1.36913 11.8987 0.666748 13.6668 0.666748ZM0.333496 27.3334V24.0001C0.333496 20.4668 5.85016 17.5667 12.8335 17.3334C12.3002 18.6334 12.0002 20.0334 12.0002 21.5001C12.0002 23.6501 12.6335 25.6668 13.6668 27.3334H0.333496Z" />
+                    </svg>
+                  </div>
+
+                  <h3
+                    class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">
+                    Web development
+                  </h3>
+
+                  <p
+                    class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">
+                    Read more
+                  </p>
+                  <div>
+                    <span class="absolute top-0 right-0 -z-1"> </span>
+                    <span class="absolute bottom-1 left-1 -z-1"> </span>
+                  </div></div
+              ></a>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+              <a href="index.html"
+                ><div
+                  class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
+                  <div
+                    class="mx-auto w-20 h-20 mb-6 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary"></div>
+                  <h3
+                    class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">
+                    App development
+                  </h3>
+                  <p
+                    class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">
+                    Read more
+                  </p>
+                  <div>
+                    <span class="absolute top-0 right-0 -z-1"> </span>
+                    <span class="absolute bottom-1 left-1 -z-1"> </span>
+                  </div></div
+              ></a>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+              <a href="index.html"
+                ><div
+                  class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
+                  <div
+                    class="mx-auto w-20 h-20 mb-6 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary"></div>
+                  <h3
+                    class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">
+                    Marketing
+                  </h3>
+                  <p
+                    class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">
+                    Read more
+                  </p>
+                  <div>
+                    <span class="absolute top-0 right-0 -z-1"> </span>
+                    <span class="absolute bottom-1 left-1 -z-1"> </span>
+                  </div></div
+              ></a>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+              <a href="index.html"
+                ><div
+                  class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
+                  <div
+                    class="mx-auto w-20 h-20 mb-6 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary"></div>
+                  <h3
+                    class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">
+                    Photography
+                  </h3>
+                  <p
+                    class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">
+                    Read more
+                  </p>
+                  <div>
+                    <span class="absolute top-0 right-0 -z-1"> </span>
+                    <span class="absolute bottom-1 left-1 -z-1"> </span>
+                  </div></div
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Services Section End  -->
+
+    <!-- ====== Portfolio Section Start  -->
+    <section id="portfolio" class="pt-[120px] pb-[70px] bg-[#f8f9ff]">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full px-4">
+            <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+              <span class="font-semibold text-lg text-primary block mb-2">
+                <!-- Creative Portfolios -->
+              </span>
+              <h2
+                class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">
+                Recent Works
+              </h2>
+              <p class="font-medium text-lg text-body-color">
+                <!-- text -->
+              </p>
+            </div>
+          </div>
+          <div class="w-full px-4">
+            <div
+              class="portfolio-buttons flex flex-wrap items-center justify-center mb-12">
+              <button
+                class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color active"
+                data-filter="*">
+                All
+              </button>
+              <button
+                class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white"
+                data-filter=".web">
+                Web
+              </button>
+              <button
+                class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white"
+                data-filter=".app">
+                App
+              </button>
+              <button
+                class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white"
+                data-filter=".cross">
+                Cross Platform
+              </button>
+              <button
+                class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white"
+                data-filter=".java">
+                Java
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-container flex justify-center -mx-4">
+          <div class="w-full xl:w-10/12 px-4">
+            <div class="items-wrapper flex flex-wrap justify-center mx-[-16px]">
+              <div class="w-full md:w-1/2 px-4 item web ">
+                <div class="mb-12">
+                  <div
+                    class="relative group mb-8 overflow-hidden shadow-service rounded-md">
+                    <img
+                      src="src/images/portfolio/fh.jpeg"
+                      alt="image"
+                      class="w-full" />
+                    <div
+                      class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
+                      <a
+                        href="src/images/portfolio/fh.jpeg"
+                        class="glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z"
+                            fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <h3 class="mt-6">
+                    <a
+                      href="index.html"
+                      class="font-semibold text-black hover:text-primary text-xl inline-block mb-3">
+                      Vue.js Project
+                    </a>
+                  </h3>
+                  <p class="font-medium text-base text-body-color">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas vitae dolor ultrices libero.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4 item graphics">
+                <div class="mb-12">
+                  <div
+                    class="relative group mb-8 overflow-hidden shadow-service rounded-md">
+                    <img
+                      src="src/images/portfolio/fh.jpeg"
+                      alt="image"
+                      class="w-full" />
+                    <div
+                      class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
+                      <a
+                        href="src/images/portfolio/fh.jpeg"
+                        class="glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z"
+                            fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <h3 class="mt-6">
+                    <a
+                      href="index.html"
+                      class="font-semibold text-black hover:text-primary text-xl inline-block mb-3">
+                      Job portal landing page
+                    </a>
+                  </h3>
+                  <p class="font-medium text-base text-body-color">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas vitae dolor ultrices libero.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4 item app">
+                <div class="mb-12">
+                  <div
+                    class="relative group mb-8 overflow-hidden shadow-service rounded-md">
+                    <img
+                      src="src/images/portfolio/fh.jpeg"
+                      alt="image"
+                      class="w-full" />
+                    <div
+                      class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
+                      <a
+                        href="src/images/portfolio/fh.jpeg"
+                        class="glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z"
+                            fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <h3 class="mt-6">
+                    <a
+                      href="index.html"
+                      class="font-semibold text-black hover:text-primary text-xl inline-block mb-3">
+                      iOS App
+                    </a>
+                  </h3>
+                  <p class="font-medium text-base text-body-color">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas vitae dolor ultrices libero.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4 item java">
+                <div class="mb-12">
+                  <div
+                    class="relative group mb-8 overflow-hidden shadow-service rounded-md">
+                    <img
+                      src="src/images/portfolio/fh.jpeg"
+                      alt="image"
+                      class="w-full" />
+                    <div
+                      class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
+                      <a
+                        href="src/images/portfolio/fh.jpeg"
+                        class="glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z"
+                            fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <h3 class="mt-6">
+                    <a
+                      href="index.html"
+                      class="font-semibold text-black hover:text-primary text-xl inline-block mb-3">
+                      Java Flipper Project
+                    </a>
+                  </h3>
+                  <p class="font-medium text-base text-body-color">
+                    Flipper project
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Portfolio Section End  -->
+
+    <!-- ====== Education Section Start  -->
+    <section id="cv" class="pt-[120px] bg-white relative z-10">
+      <div class="container">
+        <div class="border-b border-[#E9ECF8] pb-[70px]">
+          <div class="flex flex-wrap mx-[-16px]">
+            <div class="w-full px-4">
+              <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+                <!-- <span class="font-semibold text-lg text-primary block mb-2">
+                  My CV
+                </span> -->
+                <h2
+                  class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">
+                  Education
+                </h2>
+                <p class="font-medium text-lg text-body-color">
+                  Trained in web/app dev, hotel & destination management and
+                  marketing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative pt-12">
+            <span
+              class="absolute top-0 block left-2 lg:left-1/2 w-[1px] h-full bg-[#d7dfff]"></span>
+
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full lg:w-1/2 px-4">
+                <div
+                  class="lg:max-w-[428px] xl:max-w-[490px] w-full ml-auto pl-8 sm:pl-11 lg:pl-0 lg:pr-0 lg:mr-5 lg:text-right relative pb-12">
+                  <span
+                    class="absolute top-1 left-0 lg:left-auto lg:-right-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">
+                    Web and App Development
+                  </h3>
+                  <p class="font-semibold text-base text-body-color mb-3">
+                    Fachhochschule Technikum Wien | Vienna, Austria
+                  </p>
+                  <span
+                    class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5">
+                    08/2022 - 02/2024
+                  </span>
+                  <p class="font-medium text-base text-body-color">
+                    Studied web and app development at Fachhochschule Technikum
+                    Wien, gaining proficiency in a wide range of technologies
+                    including Dart, Android and iOS development, Drupal, HTML,
+                    WordPress, Vue.js, CSS, Expo, Git, JavaScript, Bootstrap,
+                    React Native, PHP, Swift, and Flutter.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div
+                  class="lg:max-w-[428px] xl:max-w-[490px] w-full pl-8 sm:pl-11 lg:pl-0 lg:ml-5 relative pb-12">
+                  <span
+                    class="absolute top-1 left-0 lg:-left-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">
+                    Web Development
+                  </h3>
+                  <p class="font-semibold text-base text-body-color mb-3">
+                    SmartNinja | Vienna, Austria
+                  </p>
+                  <span
+                    class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5">
+                    05/2019 - 08/2019
+                  </span>
+                  <p class="font-medium text-base text-body-color">
+                    Front-end Programming (HTML, CSS)
+                  </p>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div
+                  class="lg:max-w-[428px] xl:max-w-[490px] w-full ml-auto pl-8 sm:pl-11 lg:pl-0 lg:pr-0 lg:mr-5 lg:text-right relative pb-12">
+                  <span
+                    class="absolute top-1 left-0 lg:left-auto lg:-right-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">
+                    Innovation and Management in Tourism
+                  </h3>
+                  <p class="font-semibold text-base text-body-color mb-3">
+                    Fachhochschule Salzburg (University of Applied Sciences) |
+                    Salzburg, Austria
+                  </p>
+                  <span
+                    class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5">
+                    2012 - 2016
+                  </span>
+                  <p class="font-medium text-base text-body-color">
+                    Innovation and Management in Tourism program covering
+                    Hospitality and Destination Management, Online Marketing,
+                    Accounting, Controlling, Marketing, Finance,
+                    Entrepreneurship, HR, and Tourism Law. Developed
+                    collaborative skills in a multicultural environment.
+                  </p>
+                </div>
+              </div>
+
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div
+                  class="lg:max-w-[428px] xl:max-w-[490px] w-full pl-8 sm:pl-11 lg:pl-0 lg:ml-5 relative pb-12">
+                  <span
+                    class="absolute top-1 left-0 lg:-left-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">
+                    Information and Technology Faculty
+                  </h3>
+                  <p class="font-semibold text-base text-body-color mb-3">
+                    Matthias Janos IT Highschool | Balatonboglar, Hungary
+                  </p>
+                  <span
+                    class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5">
+                    2007 - 2012
+                  </span>
+                  <p class="font-medium text-base text-body-color">
+                    Major subjects: basic C# and C++ programming, Website
+                    editing, IT History
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="absolute right-0 top-0 z-0">
+          <svg
+            width="455"
+            height="1307"
+            viewBox="0 0 455 1307"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect
+              opacity="0.08"
+              width="332.05"
+              height="1060.35"
+              transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1031.2 139.128)"
+              fill="url(#paint0_linear_0:1)" />
+            <rect
+              opacity="0.08"
+              width="509.849"
+              height="1060.35"
+              transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1293.7 635.81)"
+              fill="url(#paint1_linear_0:1)" />
+            <defs>
+              <linearGradient
+                id="paint0_linear_0:1"
+                x1="166.025"
+                y1="0"
+                x2="166.025"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_0:1"
+                x1="254.924"
+                y1="0"
+                x2="254.924"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="absolute left-0 bottom-0 z-[-1]">
+          <svg
+            width="416"
+            height="1453"
+            viewBox="0 0 416 1453"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect
+              opacity="0.08"
+              width="332.05"
+              height="1030.82"
+              transform="matrix(0.632736 0.774368 0.774368 -0.632736 -603 1507.24)"
+              fill="url(#paint0_linear_0:1)" />
+            <rect
+              opacity="0.08"
+              width="791.583"
+              height="1060.35"
+              transform="matrix(0.632736 0.774368 0.774368 -0.632736 -906.263 670.922)"
+              fill="url(#paint1_linear_0:1)" />
+            <defs>
+              <linearGradient
+                id="paint0_linear_0:1"
+                x1="166.025"
+                y1="0"
+                x2="166.025"
+                y2="1030.82"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_0:1"
+                x1="395.791"
+                y1="0"
+                x2="395.791"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+      </div>
+    </section>
+    <!-- ====== Education Section End  -->
+
+    <!-- ====== Experience Section Start  -->
+    <section id="cv" class="pt-[120px] bg-white relative z-10">
+      <div class="container">
+        <div class="border-b border-[#E9ECF8] pb-[70px]">
+          <div class="flex flex-wrap mx-[-16px]">
+            <div class="w-full px-4">
+              <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+                <!-- <span class="font-semibold text-lg text-primary block mb-2">
+                  My CV
+                </span> -->
+                <h2
+                  class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">
+                  Work Experience
+                </h2>
+                <p class="font-medium text-lg text-body-color">
+                  Experienced in IT, hotel & destination management, and
+                  marketing. Ready to contribute.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative pt-12">
+            <span
+              class="absolute top-0 block left-2 lg:left-1/2 w-[1px] h-full bg-[#d7dfff]"></span>
+
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full lg:w-1/2 px-4">
+                <div
+                  class="lg:max-w-[428px] xl:max-w-[490px] w-full ml-auto pl-8 sm:pl-11 lg:pl-0 lg:pr-0 lg:mr-5 lg:text-right relative pb-12">
+                  <span
+                    class="absolute top-1 left-0 lg:left-auto lg:-right-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">
+                    IS/IT Trainee
+                  </h3>
+                  <p class="font-semibold text-base text-body-color mb-3">
+                    Thales | Vienna, Austria
+                  </p>
+                  <span
+                    class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5">
+                    03/2023 - now
+                  </span>
+                  <div class="font-medium text-left text-body-color">
+                    <p>
+                      As an IS/IT trainee, improved the joomla intranet site in php, managed system administration tasks, and
+                      provided prompt first-level support to users.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div
+                  class="lg:max-w-[428px] xl:max-w-[490px] w-full pl-8 sm:pl-11 lg:pl-0 lg:ml-5 relative pb-12">
+                  <span
+                    class="absolute top-1 left-0 lg:-left-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">
+                    Hotel Manager
+                  </h3>
+                  <p class="font-semibold text-base text-body-color mb-3">
+                    Pentahotel | Vienna, Austria
+                  </p>
+                  <span
+                    class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5">
+                    12/2016 - 02/2023
+                  </span>
+                  <p class="font-medium text-base text-body-color">
+                    Handled front and back office operations, managed the bar,
+                    performed bookkeeping duties, and worked across various
+                    shifts, ensuring seamless hotel management.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div
+                  class="lg:max-w-[428px] xl:max-w-[490px] w-full ml-auto pl-8 sm:pl-11 lg:pl-0 lg:pr-0 lg:mr-5 lg:text-right relative pb-12">
+                  <span
+                    class="absolute top-1 left-0 lg:left-auto lg:-right-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">
+                    Project Manager, Logo and Website Editor and Designer
+                  </h3>
+                  <p class="font-semibold text-base text-body-color mb-3">
+                    Experience Salzburg | Salzburg, Austria
+                  </p>
+                  <span
+                    class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5">
+                    01/2015 - 07/2016
+                  </span>
+                  <p class="font-medium text-base text-body-color">
+                    Improved the visibility of the main tourist attractions of
+                    Salzburg via Facebook, YouTube, WordPress blog pages
+                  </p>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div
+                  class="lg:max-w-[428px] xl:max-w-[490px] w-full pl-8 sm:pl-11 lg:pl-0 lg:ml-5 relative pb-12">
+                  <span
+                    class="absolute top-1 left-0 lg:-left-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">
+                    Organizer
+                  </h3>
+                  <p class="font-semibold text-base text-body-color mb-3">
+                    Worldwide Innovative Students in Tourism (WISIT) | Salzburg,
+                    Austria
+                  </p>
+                  <span
+                    class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5">
+                    01/2014 - 12/2015
+                  </span>
+                  <p class="font-medium text-base text-body-color">
+                    Orchestrating events to foster collaboration and networking
+                    opportunities for both new and current students.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="absolute right-0 top-0 z-0">
+          <svg
+            width="455"
+            height="1307"
+            viewBox="0 0 455 1307"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect
+              opacity="0.08"
+              width="332.05"
+              height="1060.35"
+              transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1031.2 139.128)"
+              fill="url(#paint0_linear_0:1)" />
+            <rect
+              opacity="0.08"
+              width="509.849"
+              height="1060.35"
+              transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1293.7 635.81)"
+              fill="url(#paint1_linear_0:1)" />
+            <defs>
+              <linearGradient
+                id="paint0_linear_0:1"
+                x1="166.025"
+                y1="0"
+                x2="166.025"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_0:1"
+                x1="254.924"
+                y1="0"
+                x2="254.924"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="absolute left-0 bottom-0 z-[-1]">
+          <svg
+            width="416"
+            height="1453"
+            viewBox="0 0 416 1453"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect
+              opacity="0.08"
+              width="332.05"
+              height="1030.82"
+              transform="matrix(0.632736 0.774368 0.774368 -0.632736 -603 1507.24)"
+              fill="url(#paint0_linear_0:1)" />
+            <rect
+              opacity="0.08"
+              width="791.583"
+              height="1060.35"
+              transform="matrix(0.632736 0.774368 0.774368 -0.632736 -906.263 670.922)"
+              fill="url(#paint1_linear_0:1)" />
+            <defs>
+              <linearGradient
+                id="paint0_linear_0:1"
+                x1="166.025"
+                y1="0"
+                x2="166.025"
+                y2="1030.82"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_0:1"
+                x1="395.791"
+                y1="0"
+                x2="395.791"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+      </div>
+    </section>
+    <!-- ====== Experience Section End  -->
+
+    <!-- ====== Testimonial Section Start  -->
+    
+    <!-- ====== Testimonial Section End  -->
+
+    <!-- ====== Contact Section Start  -->
+    <section id="contact" class="py-[120px]">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full px-4">
+            <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+              <span class="font-semibold text-lg text-primary block mb-2">
+                <!-- text -->
+              </span>
+              <h2
+                class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">
+                Contact me
+              </h2>
+              <p class="font-medium text-lg text-body-color">
+                <!-- text -->
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center -mx-4">
+          <form
+            action="mailto:gergojeles5@gmail.com"
+            method="post"
+            enctype="text/plain"
+            class="w-full lg:w-9/12 px-4">
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full md:w-1/2 px-4">
+                <div class="mb-6">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    class="input-field" />
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4">
+                <div class="mb-6">
+                  <input
+                    type="text"
+                    name="company"
+                    placeholder="Company (Optional)"
+                    class="input-field" />
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4">
+                <div class="mb-6">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    class="input-field" />
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4">
+                <div class="mb-6">
+                  <input
+                    type="text"
+                    name="phone"
+                    placeholder="Phone number (Optional)"
+                    class="input-field" />
+                </div>
+              </div>
+              <div class="w-full px-4">
+                <div class="mb-6">
+                  <textarea
+                    rows="4"
+                    name="message"
+                    placeholder="Message"
+                    class="input-field resize-none"></textarea>
+                </div>
+              </div>
+              <div class="w-full px-4">
+                <div class="pt-4 text-center">
+                  <button
+                    type="submit"
+                    class="inline-flex justify-center items-center py-4 px-9 rounded-full font-semibold text-white bg-primary mx-auto transition duration-300 ease-in-out hover:shadow-signUp hover:bg-opacity-90">
+                    Contact Me
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Contact Section End  -->
+
+    <!-- ====== Footer Section Start  -->
+    <footer class="bg-black pt-[100px] pb-12 relative z-10">
+      <div class="container">
+          <div class="w-full text-center">
+            <div class="mb-10">
+              <h2 class="font-bold text-white text-[44px] leading-tight mb-5">
+                Contact Info
+              </h2>
+              <!-- <h3 class="font-bold text-white opacity-70 text-2xl mb-2">
+                Contact Info
+              </h3> -->
+              <p class="font-medium text-base text-body-color mb-1">
+                <a href="mailto:gergo@jeles.com">gergo@jeles.com</a>
+              </p>
+              <p class="font-medium text-base text-body-color mb-1">
+                Vienna/Budapest
+              </p>
+              <p class="font-medium text-base text-body-color mb-1">
+                +43 676 603 2671
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 pt-12 border-t border-white border-opacity-10">
+          <div class="flex items-center justify-center mb-5">
+            <a
+              href="javascript:void(0)"
+              class="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"
+              aria-label="social-link"
+              name="social-link">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                class="fill-current"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M32 16C32 7.1625 24.8375 0 16 0C7.1625 0 0 7.1625 0 16C0 24.8375 7.1625 32 16 32C16.0938 32 16.1875 32 16.2812 31.9937V19.5438H12.8438V15.5375H16.2812V12.5875C16.2812 9.16875 18.3688 7.30625 21.4188 7.30625C22.8813 7.30625 24.1375 7.4125 24.5 7.4625V11.0375H22.4C20.7437 11.0375 20.4188 11.825 20.4188 12.9812V15.5312H24.3875L23.8687 19.5375H20.4188V31.3813C27.1063 29.4625 32 23.3062 32 16Z" />
+              </svg>
+            </a>
+            <a
+              href="javascript:void(0)"
+              class="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"
+              aria-label="social-link"
+              name="social-link">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                class="fill-current">
+                <path
+                  d="M19.0625 16C19.0625 17.6914 17.6914 19.0625 16 19.0625C14.3086 19.0625 12.9375 17.6914 12.9375 16C12.9375 14.3086 14.3086 12.9375 16 12.9375C17.6914 12.9375 19.0625 14.3086 19.0625 16Z" />
+                <path
+                  d="M23.1621 10.5813C23.0149 10.1824 22.78 9.82129 22.4749 9.5249C22.1785 9.21973 21.8176 8.98486 21.4185 8.83765C21.0947 8.71191 20.6084 8.56226 19.7126 8.52148C18.7437 8.47729 18.4531 8.46777 16 8.46777C13.5466 8.46777 13.2561 8.47705 12.2874 8.52124C11.3916 8.56226 10.905 8.71191 10.5815 8.83765C10.1824 8.98486 9.82129 9.21973 9.52515 9.5249C9.21997 9.82129 8.98511 10.1821 8.83765 10.5813C8.71191 10.905 8.56226 11.3916 8.52148 12.2874C8.47729 13.2561 8.46777 13.5466 8.46777 16C8.46777 18.4531 8.47729 18.7437 8.52148 19.7126C8.56226 20.6084 8.71191 21.0947 8.83765 21.4185C8.98511 21.8176 9.21973 22.1785 9.5249 22.4749C9.82129 22.78 10.1821 23.0149 10.5813 23.1621C10.905 23.2881 11.3916 23.4377 12.2874 23.4785C13.2561 23.5227 13.5464 23.532 15.9998 23.532C18.4534 23.532 18.7439 23.5227 19.7124 23.4785C20.6082 23.4377 21.0947 23.2881 21.4185 23.1621C22.2197 22.853 22.853 22.2197 23.1621 21.4185C23.2878 21.0947 23.4375 20.6084 23.4785 19.7126C23.5227 18.7437 23.532 18.4531 23.532 16C23.532 13.5466 23.5227 13.2561 23.4785 12.2874C23.4377 11.3916 23.2881 10.905 23.1621 10.5813ZM16 20.7175C13.3943 20.7175 11.282 18.6055 11.282 15.9998C11.282 13.394 13.3943 11.282 16 11.282C18.6055 11.282 20.7178 13.394 20.7178 15.9998C20.7178 18.6055 18.6055 20.7175 16 20.7175ZM20.9043 12.198C20.2954 12.198 19.8018 11.7043 19.8018 11.0955C19.8018 10.4866 20.2954 9.99292 20.9043 9.99292C21.5132 9.99292 22.0068 10.4866 22.0068 11.0955C22.0066 11.7043 21.5132 12.198 20.9043 12.198Z" />
+                <path
+                  d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM25.1321 19.7878C25.0876 20.7659 24.9321 21.4336 24.7051 22.0181C24.2278 23.2522 23.2522 24.2278 22.0181 24.7051C21.4338 24.9321 20.7659 25.0874 19.7881 25.1321C18.8083 25.1768 18.4954 25.1875 16.0002 25.1875C13.5049 25.1875 13.1921 25.1768 12.2122 25.1321C11.2344 25.0874 10.5664 24.9321 9.98218 24.7051C9.3689 24.4744 8.81372 24.1128 8.35474 23.6453C7.88745 23.1865 7.52588 22.6311 7.29517 22.0181C7.06812 21.4338 6.9126 20.7659 6.86816 19.7881C6.823 18.8081 6.8125 18.4951 6.8125 16C6.8125 13.5049 6.823 13.1919 6.86792 12.2122C6.91235 11.2341 7.06763 10.5664 7.29468 9.98193C7.52539 9.3689 7.88721 8.81348 8.35474 8.35474C8.81348 7.88721 9.3689 7.52563 9.98193 7.29492C10.5664 7.06787 11.2341 6.9126 12.2122 6.86792C13.1919 6.82324 13.5049 6.8125 16 6.8125C18.4951 6.8125 18.8081 6.82324 19.7878 6.86816C20.7659 6.9126 21.4336 7.06787 22.0181 7.29468C22.6311 7.52539 23.1865 7.88721 23.6455 8.35474C24.1128 8.81372 24.4746 9.3689 24.7051 9.98193C24.9324 10.5664 25.0876 11.2341 25.1323 12.2122C25.177 13.1919 25.1875 13.5049 25.1875 16C25.1875 18.4951 25.177 18.8081 25.1321 19.7878Z" />
+              </svg>
+            </a>
+            <a
+              href="javascript:void(0)"
+              class="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"
+              aria-label="social-link"
+              name="social-link">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                class="fill-current">
+                <path
+                  d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM23.3054 12.4751C23.3125 12.6326 23.3159 12.7908 23.3159 12.9497C23.3159 17.8025 19.6221 23.3984 12.8669 23.3987H12.8672H12.8669C10.793 23.3987 8.86304 22.7908 7.23779 21.749C7.52515 21.783 7.81763 21.7998 8.11377 21.7998C9.83447 21.7998 11.418 21.2129 12.675 20.2278C11.0674 20.198 9.71191 19.1362 9.24414 17.677C9.46802 17.72 9.69824 17.7434 9.93433 17.7434C10.2695 17.7434 10.5942 17.6982 10.9028 17.614C9.22241 17.2776 7.95654 15.7925 7.95654 14.0142C7.95654 13.9976 7.95654 13.9827 7.95703 13.9673C8.4519 14.2424 9.01782 14.408 9.62036 14.4265C8.63428 13.7686 7.98608 12.6438 7.98608 11.3696C7.98608 10.6968 8.16797 10.0664 8.4834 9.52368C10.2944 11.7458 13.001 13.2073 16.0532 13.3608C15.9902 13.0918 15.9578 12.8115 15.9578 12.5234C15.9578 10.4961 17.6025 8.85132 19.6306 8.85132C20.687 8.85132 21.6411 9.29785 22.3113 10.0117C23.1479 9.84668 23.9336 9.54102 24.6433 9.12036C24.3687 9.97754 23.7866 10.6968 23.0283 11.1516C23.7712 11.0627 24.4792 10.8657 25.1372 10.5732C24.6458 11.3098 24.0225 11.9568 23.3054 12.4751Z" />
+              </svg>
+            </a>
+            <a
+              href="javascript:void(0)"
+              class="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"
+              aria-label="social-link"
+              name="social-link">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                class="fill-current">
+                <path
+                  d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM11.3506 24.1875H7.45386V12.4641H11.3506V24.1875ZM9.40234 10.8633H9.37695C8.06934 10.8633 7.22363 9.96313 7.22363 8.83813C7.22363 7.68774 8.09521 6.8125 9.42822 6.8125C10.7612 6.8125 11.5815 7.68774 11.6069 8.83813C11.6069 9.96313 10.7612 10.8633 9.40234 10.8633ZM25.4014 24.1875H21.5051V17.9158C21.5051 16.3396 20.9409 15.2646 19.531 15.2646C18.4546 15.2646 17.8135 15.9897 17.5317 16.6897C17.4287 16.9402 17.4036 17.2903 17.4036 17.6406V24.1875H13.5071C13.5071 24.1875 13.5581 13.564 13.5071 12.4641H17.4036V14.124C17.9214 13.3252 18.8479 12.189 20.9153 12.189C23.479 12.189 25.4014 13.8645 25.4014 17.4653V24.1875Z" />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-base text-body-color text-center">
+            Gergö Jeles 2024
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- ====== Footer Section End  -->
+
+    <!-- ====== Back To Top Start -->
+    <a
+      href="javascript:void(0)"
+      class="hidden items-center justify-center bg-primary text-white w-10 h-10 rounded-md fixed bottom-8 right-8 left-auto z-[999] hover:shadow-signUp transition duration-300 back-to-top">
+      <span
+        class="w-3 h-3 border-t border-l border-white rotate-45 mt-[6px]"></span>
+    </a>
+    <!-- ====== Back To Top End -->
+
+    <!-- ====== All Scripts -->
+    <script>
+      // ==== for menu scroll
+      const pageLink = document.querySelectorAll(".menu-scroll");
+
+      pageLink.forEach((elem) => {
+        elem.addEventListener("click", (e) => {
+          e.preventDefault();
+          document.querySelector(elem.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            offsetTop: 1 - 60,
+          });
+        });
+      });
+
+      // section menu active
+      function onScroll(event) {
+        const sections = document.querySelectorAll(".menu-scroll");
+        const scrollPos =
+          window.pageYOffset ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop;
+
+        for (let i = 0; i < sections.length; i++) {
+          const currLink = sections[i];
+          const val = currLink.getAttribute("href");
+          const refElement = document.querySelector(val);
+          const scrollTopMinus = scrollPos + 73;
+          if (
+            refElement.offsetTop <= scrollTopMinus &&
+            refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+          ) {
+            document.querySelector(".menu-scroll").classList.remove("active");
+            currLink.classList.add("active");
+          } else {
+            currLink.classList.remove("active");
+          }
+        }
+      }
+
+      window.document.addEventListener("scroll", onScroll);
+    </script>
+
+    <!-- Include XHR backend plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next-xhr-backend/3.2.2/i18nextXHRBackend.min.js"></script>
+  <script defer src="bundle.js"></script></body>
+</html>

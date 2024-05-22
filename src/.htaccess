@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Redirect /blog-details to /blog-details.html
+RewriteRule ^blog-details$ /blog-details.html [L]
+
+# Redirect /blog-grids to /blog-grids.html
+RewriteRule ^blog-grids$ /blog-grids.html [L]
+
+# Redirect /de to /de.html
+RewriteRule ^de$ /de.html [L]
+
+# Redirect /flipper-work-en to /flipper-work-en.html
+RewriteRule ^flipper-work-en$ /flipper-work-en.html [L]
+
+# Redirect /hu to /hu.html
+RewriteRule ^hu$ /hu.html [L]
+
+# Redirect /portfolio-details to /portfolio-details.html
+RewriteRule ^portfolio-details$ /portfolio-details.html [L]
+
+# Redirect /web-development-en to /webDevelopmentEN.html
+RewriteRule ^web-development-en$ /webDevelopmentEN.html [L]
